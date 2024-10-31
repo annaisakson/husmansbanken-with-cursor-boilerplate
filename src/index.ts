@@ -26,7 +26,7 @@ app.use('/recipes', recipesRouter);
 app.use('/api/users', userRoutes);
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the API');
+  res.send('HELLO FROM THE SERVER!');
 });
 
 // Only start the server if we're not in a Vercel environment
